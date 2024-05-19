@@ -1,8 +1,8 @@
 # Object Oriented Programming (OOP) in Python
 
 01. Classes
-02. Methods-Functions
-03. Objects
+02. Objects
+03. Methods-Functions
 04. Constructors
 05. Inheritance
 06. Encapsulation
@@ -14,7 +14,7 @@
 
 ### 01. Classes
 
-In Python Classes are template/blueprints for creating an object, Classes contains attributes and methods which can be accessed through an object. 
+In Python Classes are templates/blueprints for creating an object, Classes contain attributes and class-methods which can be accessed through an object. Objects are instances of a class, attribures are variables which are associated whith an object, while class-method in python are methods that can access and modify class-level data shared among all instances of the class.
 In Python, classes are defined using the “Class” keyword
 
 ```
@@ -34,8 +34,21 @@ class myClass():
         - The self-argument refers to the object itself. Hence the use of the word self. So inside this method, self will refer to the specific instance of this object that’s being operated on.
         - Self is the name preferred by convention by Pythons to indicate the first parameter of instance methods in Python. It is part of the Python syntax to access members of objects
 
+### 02. Objects
+Objects in Python are instances of a Class. Each object can have its own unique attributes and behaviors as defined by the class. For example, if ``` Car ``` is a class, ``` my_car ``` can be an object of that class with specific details like color and model.
 
-### 02. Methods-Functions
+- How to construct an object of the class?
+- here 'my_car' is an object constructing the Class 'Car'
+```
+my_car = Car()
+```
+
+- How to call a method in a class?
+```
+my_car.color("blue")
+```
+
+### 03. Methods-Functions
 
 - Inside classes, you can define attributes and methods that are part of the class
 
@@ -46,7 +59,7 @@ def method2 (self, something):
    print ("Program-Method"+ something)
 ```
 Here we have defined method1 that prints “OOP”
-Another method we have defined is method2 that prints “Program-Method”+ something. something is the variable supplied by the calling method
+Another method we have defined is method2 which prints “Program-Method”+ something. something is the variable supplied by the calling method
 
 - Types of methods-
     * Instance Method
@@ -54,19 +67,6 @@ Another method we have defined is method2 that prints “Program-Method”+ some
     * Static Method
         
         * We have one more method called the 'magic method'
-
-### 03. Objects
-
-- How to construct an object of the class?
-- here 'my_turtle' is an object constructing the class 'Turtle'
-```
-my_turtle = Turtle()
-```
-
-- How to call a method in a class?
-```
-my_turtle.color("red")
-```
 
 ### 04. Constructors
 
