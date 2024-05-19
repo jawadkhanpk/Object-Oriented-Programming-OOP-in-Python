@@ -21,19 +21,6 @@ In Python, classes are defined using the “Class” keyword
 class myClass():
 ```
 
-### 02. Methods-Functions
-
-- Inside classes, you can define attributes and methods that are part of the class
-
-```
-def method1 (self):
-   print("OOP")
-def method2 (self, something): 
-   print ("Program-Method"+ something)
-```
-Here we have defined method1 that prints “OOP”
-Another method we have defined is method2 that prints “Program-Method”+ something. something is the variable supplied by the calling method
-
 - Everything in a class is indented, just like the code in the method, loop, if statement, etc. Anything not indented is not in the class
 ```
 class myClass():
@@ -46,6 +33,20 @@ class myClass():
     - “self”
         - The self-argument refers to the object itself. Hence the use of the word self. So inside this method, self will refer to the specific instance of this object that’s being operated on.
         - Self is the name preferred by convention by Pythons to indicate the first parameter of instance methods in Python. It is part of the Python syntax to access members of objects
+
+
+### 02. Methods-Functions
+
+- Inside classes, you can define attributes and methods that are part of the class
+
+```
+def method1 (self):
+   print("OOP")
+def method2 (self, something): 
+   print ("Program-Method"+ something)
+```
+Here we have defined method1 that prints “OOP”
+Another method we have defined is method2 that prints “Program-Method”+ something. something is the variable supplied by the calling method
 
 - Types of methods-
     * Instance Method
