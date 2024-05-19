@@ -5,14 +5,14 @@ class User:
 
 
 # constructing object for class
-my_user1 = User
+my_user1 = User()
 my_user1.id = 34
 my_user1.username = "jawadkhanpk"
 
 print(f"{my_user1.id}\n{my_user1.username}")
 
 
-my_user2 = User
+my_user2 = User()
 my_user2.userid= "56"
 my_user2.username = "devadan"
 
