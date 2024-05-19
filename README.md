@@ -14,7 +14,7 @@
 
 ### 01. Classes
 
-In Python Classes are templates/blueprints for creating an object, Classes contain attributes and class-methods which can be accessed through an object. Objects are instances of a class, attribures are variables which are associated whith an object, while class-method in python are methods that can access and modify class-level data shared among all instances of the class.
+In Python Classes are templates/blueprints for creating an object, Classes contain attributes and class-methods which can be accessed through an object. Objects are instances of a class, attribures are variables which are associated whith an object, while class-method in python are methods that can access and modify class-level data shared among all instances of the class. **In simple attributes are the things that the object has, and the methods are things that the object does.**
 In Python, classes are defined using the “Class” keyword
 
 ```
