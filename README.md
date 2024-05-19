@@ -34,6 +34,11 @@ class myClass():
         - The self-argument refers to the object itself. Hence the use of the word self. So inside this method, self will refer to the specific instance of this object that’s being operated on.
         - Self is the name preferred by convention by Pythons to indicate the first parameter of instance methods in Python. It is part of the Python syntax to access members of objects
 
+- [Note]
+    - The “__init__” keyword in Python
+        - It is a special method in Python which is used to create a Constructor of a Class, Constructor in Python is a special Method denoted by ``` __init__ ``` keyword, which is used to initialize the attributes.
+        - We implement a Constructor if we have a lot of attributes for an Object.
+        - It is the part of the Blueprint that allow us to specify what should happen when our object is being constructed.
 ### 02. Objects
 Objects in Python are instances of a Class. Each object can have its own unique attributes and behaviors as defined by the class. For example, if ``` Car ``` is a class, ``` my_car ``` can be an object of that class with specific details like color and model.
 
