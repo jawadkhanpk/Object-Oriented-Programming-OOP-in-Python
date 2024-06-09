@@ -18,12 +18,12 @@ In Python Classes are templates/blueprints for creating an object, Classes conta
 In Python, classes are defined using the “Class” keyword
 
 ```
-class myClass():
+class MyClass():
 ```
 
 - Everything in a class is indented, just like the code in the method, loop, if statement, etc. Anything not indented is not in the class
 ```
-class myClass():
+class MyClass():
     def method1 (self):
         print("OOP")
     def method2 (self, something): 
